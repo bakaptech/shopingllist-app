@@ -1,0 +1,27 @@
+// @media all and (min-width: 480px) {
+//     .Login {
+//       padding: 60px 0;
+//     }
+  
+//     .Login form {
+//       margin: 0 auto;
+//       max-width: 320px;
+//     }
+//   }
+.link_container{
+@include centerText;
+margin-top: 2rem;
+}
+
+.button_placeholder{
+  @include centerText;
+  margin-top:2rem;
+}
+.form_container{
+  @include centerText;
+margin-top: 3rem;
+}
+.card_container{
+  @include centerText;
+  margin-bottom: 4rem;
+}

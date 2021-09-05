@@ -1,0 +1,22 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  @mixin between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+@mixin weekElemBorder {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid $row-color;
+}
+
+@mixin centerText {
+  width: 100%;
+  text-align: center;
+}

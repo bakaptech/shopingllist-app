@@ -1,0 +1,19 @@
+.landingpage{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://mdn.mozillademos.org/files/11991/startransparent.gif");
+    object-fit: cover;
+};
+.landing-container{
+    @include center;
+    margin-top:50vh;
+    background-color: $color-main-container-background;
+    background-color: transparent;
+}
+.user-container{
+@include center;
+margin-top:20vh;
+background-color: $color-main-container-background;
+background-color: transparent;
+}
+

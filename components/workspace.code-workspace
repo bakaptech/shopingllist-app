@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\contexts"
+		},
+		{
+			"path": "..\\images"
+		},
+		{
+			"path": "..\\scss"
+		}
+	]
+}
